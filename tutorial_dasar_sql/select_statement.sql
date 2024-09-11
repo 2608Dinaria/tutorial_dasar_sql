@@ -1,4 +1,4 @@
-**/ mencari jenis kamar dan harga per malam yang memiliki kapasitas 4 /
+/*mencari jenis kamar dan harga per malam yang memiliki kapasitas 4 */
 SELECT 
       jenis_kamar,
       harga_per_malam
@@ -7,7 +7,7 @@ FROM
 WHERE 
    kapasitas = 4;
 
-**// mencari alamat dan nama pelanggan yang bernama Kevin Sanjaya /
+/*mencari alamat dan nama pelanggan yang bernama Kevin Sanjaya */
 SELECT 
      nama,
      alamat
